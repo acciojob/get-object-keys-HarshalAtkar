@@ -2,6 +2,6 @@
 const student={
 	name:"harshal"
 };
-Object.prototypes.getkeys=function (){
+Object.prototype.getkeys=function (){
 	return Object.keys(this);
 }
